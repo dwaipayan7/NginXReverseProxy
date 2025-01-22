@@ -1,0 +1,22 @@
+{
+  "name": "nginxreverseproxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.7",
+    "nodemon": "^3.1.9",
+    "tsc-watch": "^6.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
